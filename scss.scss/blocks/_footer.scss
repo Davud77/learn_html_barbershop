@@ -1,0 +1,50 @@
+.footer {
+
+    height: 193px;
+    background-color: rgb(64, 64, 64);
+
+    &_item {
+        display: flex;
+        justify-content: space-between;
+        height: 193px;
+        width: 33%;
+        margin: 5px;
+        &_text {
+            font-size: 14px;
+            
+            
+            margin: 0 93px 0 0;
+            font-family: PTSans-Narrow;
+            font-size: 14px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.71;
+            letter-spacing: normal;
+            text-align: left;
+            color: #fff;
+        }
+        &_title {
+            width: 108px;
+            height: 15px;
+            margin: 0 275px 20px 110px;
+            font-family: PTSans-Narrow;
+            font-size: 14px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.71;
+            letter-spacing: normal;
+            text-align: left;
+            color: #fff;
+
+        }    
+        
+        
+    }
+        
+
+
+
+
+  }

@@ -1,0 +1,47 @@
+.logo {
+    
+    height: 1716px;
+    margin: 40px 0 0;
+    padding: 92px 0 0;
+    background: url(/img/index-bg.jpg) center center/cover no-repeat;;
+    &_img  {
+        margin: 0 auto;
+        width: 370px;
+        height: 154px;
+        padding-bottom: 70px;
+      }
+    &_list {
+        display: flex;
+        justify-content: space-between;
+        &_item {
+            &_title {
+
+                
+
+                font-size: 30.5px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.39;
+                letter-spacing: normal;
+                text-align: center;
+                color: #f7f4f1;
+                }
+            &_text {
+
+                
+
+                font-size: 14px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.71;
+                letter-spacing: normal;
+                text-align: center;
+                color: #f7f4f1;
+            }
+            }
+        }
+    }
+
+  

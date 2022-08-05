@@ -1,0 +1,139 @@
+* {
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+}
+
+.container {
+  position: relative;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 193px;
+  background-color: rgb(64, 64, 64);
+}
+.footer_item {
+  display: flex;
+  justify-content: space-between;
+  height: 193px;
+  width: 33%;
+  margin: 5px;
+}
+.footer_item_text {
+  font-size: 14px;
+  margin: 0 93px 0 0;
+  font-family: PTSans-Narrow;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+.footer_item_title {
+  width: 108px;
+  height: 15px;
+  margin: 0 275px 20px 110px;
+  font-family: PTSans-Narrow;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.header {
+  height: 72px;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+.header_item_nav {
+  display: inline-block;
+  width: 88%;
+}
+.header_item_nav_list_ul_li {
+  display: inline-flex;
+  margin-right: 50px;
+  font-size: 16.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  list-style-type: none;
+  margin-top: 4%;
+}
+.header_item_login {
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 16.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  list-style-type: none;
+  margin-top: 4%;
+}
+
+.logo {
+  height: 1716px;
+  margin: 40px 0 0;
+  padding: 92px 0 0;
+  background: url(/img/index-bg.jpg) center center/cover no-repeat;
+}
+.logo_img {
+  margin: 0 auto;
+  width: 370px;
+  height: 154px;
+  padding-bottom: 70px;
+}
+.logo_list {
+  display: flex;
+  justify-content: space-between;
+}
+.logo_list_item_title {
+  font-size: 30.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f7f4f1;
+}
+.logo_list_item_text {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f7f4f1;
+}
+
+.news {
+  width: 940px;
+  height: 419px;
+  margin: 83px 810px 36px;
+  padding: 55px 80px 50px;
+  background-color: #fff;
+}/*# sourceMappingURL=style.css.map */

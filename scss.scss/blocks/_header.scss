@@ -1,0 +1,51 @@
+.header {
+    height: 72px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    &_item {
+        &_nav {
+            display: inline-block;
+            width: 88%;
+            &_list {
+                
+                &_ul {
+                    &_li {
+                        display: inline-flex;
+                        margin-right: 50px;
+                        font-size: 16.5px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.27;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #fff;
+                        list-style-type: none;
+                        margin-top: 4%;
+                    }
+                }
+ 
+                
+            }
+        }
+        &_login {
+            display: inline-block;
+            
+                        margin-right: 50px;
+                        font-size: 16.5px;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.27;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #fff;
+                        list-style-type: none;
+                        margin-top: 4%;
+        }
+        
+        
+    }
+}
