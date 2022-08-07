@@ -11,9 +11,10 @@
             &_list {
                 
                 &_ul {
+                    padding: 0;
                     &_li {
                         display: inline-flex;
-                        margin-right: 50px;
+                        margin-right: 40px;
                         font-size: 16.5px;
                         font-weight: bold;
                         font-stretch: normal;
@@ -24,6 +25,7 @@
                         color: #fff;
                         list-style-type: none;
                         margin-top: 4%;
+                        font-family: 'ptsansnarrow';
                     }
                 }
  
@@ -32,18 +34,19 @@
         }
         &_login {
             display: inline-block;
-            
-                        margin-right: 50px;
-                        font-size: 16.5px;
-                        font-weight: bold;
-                        font-stretch: normal;
-                        font-style: normal;
-                        line-height: 1.27;
-                        letter-spacing: normal;
-                        text-align: center;
-                        color: #fff;
-                        list-style-type: none;
-                        margin-top: 4%;
+            margin-right: 50px;
+            font-size: 16.5px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.27;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            list-style-type: none;
+            margin-top: 4%;
+            font-family: 'ptsansnarrow';
+            right: 0;
         }
         
         

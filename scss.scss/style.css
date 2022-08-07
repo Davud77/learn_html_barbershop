@@ -64,9 +64,12 @@ html, body {
   display: inline-block;
   width: 88%;
 }
+.header_item_nav_list_ul {
+  padding: 0;
+}
 .header_item_nav_list_ul_li {
   display: inline-flex;
-  margin-right: 50px;
+  margin-right: 40px;
   font-size: 16.5px;
   font-weight: bold;
   font-stretch: normal;
@@ -77,6 +80,7 @@ html, body {
   color: #fff;
   list-style-type: none;
   margin-top: 4%;
+  font-family: "ptsansnarrow";
 }
 .header_item_login {
   display: inline-block;
@@ -91,6 +95,8 @@ html, body {
   color: #fff;
   list-style-type: none;
   margin-top: 4%;
+  font-family: "ptsansnarrow";
+  right: 0;
 }
 
 .logo {
@@ -103,7 +109,7 @@ html, body {
   margin: 0 auto;
   width: 370px;
   height: 154px;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
 }
 .logo_list {
   display: flex;
@@ -118,6 +124,7 @@ html, body {
   letter-spacing: normal;
   text-align: center;
   color: #f7f4f1;
+  font-family: "ptsansnarrow";
 }
 .logo_list_item_text {
   font-size: 14px;
@@ -128,12 +135,29 @@ html, body {
   letter-spacing: normal;
   text-align: center;
   color: #f7f4f1;
+  font-family: "ptsansnarrow";
 }
 
 .news {
-  width: 940px;
+  position: absolute;
+  top: 600px;
+}
+.news_content {
+  position: absolute;
+  width: 470px;
   height: 419px;
   margin: 83px 810px 36px;
   padding: 55px 80px 50px;
   background-color: #fff;
+}
+
+@font-face {
+  font-family: "ptsansnarrow";
+  src: url(/fonts/web/ptsansnarrow.woff) format("woff"), url(/fonts/web/ptsansnarrow.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "ptsansnarrowbold";
+  src: url(/fonts/web/ptsansnarrowbold.woff) format("woff"), url(/fonts/web/ptsansnarrowbold.woff2) format("woff2");
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

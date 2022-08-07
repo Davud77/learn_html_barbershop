@@ -26,3 +26,15 @@ html, body {
 
 
 
+@font-face {
+    font-family: 'ptsansnarrow';
+    src: url(/fonts/web/ptsansnarrow.woff) format('woff'), url(/fonts/web/ptsansnarrow.woff2) format('woff2');
+    font-weight: 400;
+  }
+  
+  
+  @font-face {
+    font-family: 'ptsansnarrowbold';
+    src: url(/fonts/web/ptsansnarrowbold.woff) format('woff'), url(/fonts/web/ptsansnarrowbold.woff2) format('woff2');
+    font-weight: 700;
+  }
