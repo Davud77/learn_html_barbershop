@@ -44,45 +44,89 @@ html, body {
   line-height: 1.71;
   letter-spacing: normal;
   color: #fff;
+  text-transform: uppercase;
 }
 .button_max {
   width: 88%;
+}
+.button_cre {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .footer {
   height: 193px;
   background-color: #232323;
 }
-.footer_item {
-  height: 193px;
-  width: 33%;
+.footer_item_social_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  list-style-type: none;
+}
+.footer_item_social_list_item a {
+  position: relative;
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: #000000;
+}
+.footer_item_social_list_item a:hover {
+  background-color: #fff;
+}
+.footer_item_social_list_item a:before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer_item .page-footer__social-item--vk a::before {
+  background-image: url("../img/vk.svg");
+}
+.footer_item .page-footer__social-item--vk a:hover::before {
+  background-image: url("../img/vk-black.svg");
+}
+.footer_item .page-footer__social-item--facebook a::before {
+  background-image: url("../img/facebook.svg");
+}
+.footer_item .page-footer__social-item--facebook a:hover::before {
+  background-image: url("../img/facebook-black.svg");
+}
+.footer_item .page-footer__social-item--inst a::before {
+  background-image: url("../img/instagram.svg");
+}
+.footer_item .page-footer__social-item--inst a:hover::before {
+  background-image: url("../img/instagram-black.svg");
 }
 .footer_item_text {
   font-size: 14px;
-  margin: 0 93px 0 0;
-  font-family: "ptsansnarrow";
+  font-family: "ptsansnarrowbold";
   font-size: 14px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.71;
-  letter-spacing: normal;
-  text-align: left;
   color: #fff;
 }
 .footer_item_title {
-  width: 108px;
-  height: 15px;
-  margin: 0 275px 20px 110px;
-  font-family: "ptsansnarrow";
+  margin-top: 70px;
+  font-family: "ptsansnarrowbold";
   font-size: 14px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #fff;
+}
+.footer_item_adr {
+  margin-top: 70px;
+  width: 380px;
+}
+.footer_item_cre {
+  width: 380px;
+}
+.footer_item_soc {
+  width: 150px;
 }
 
 .header {

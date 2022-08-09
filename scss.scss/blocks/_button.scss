@@ -12,9 +12,14 @@
     line-height: 1.71;
     letter-spacing: normal;
     color: #fff;
+    text-transform: uppercase;
     &_max {
         width: 88%;
         
     }
-      
+    &_cre {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }  
 }
