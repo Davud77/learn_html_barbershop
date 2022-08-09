@@ -1,6 +1,5 @@
 .header {
-    height: 72px;
-    background-color: black;
+    height: 30px;
     margin: 0;
     padding: 0;
     top: 0;
@@ -24,7 +23,7 @@
                         text-align: center;
                         color: #fff;
                         list-style-type: none;
-                        margin-top: 4%;
+                        /* margin-top: 4%; */
                         font-family: 'ptsansnarrow';
                     }
                 }
@@ -44,7 +43,7 @@
             text-align: center;
             color: #fff;
             list-style-type: none;
-            margin-top: 4%;
+            margin-top: 25px;
             font-family: 'ptsansnarrow';
             right: 0;
         }

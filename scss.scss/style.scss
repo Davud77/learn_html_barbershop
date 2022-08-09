@@ -1,5 +1,5 @@
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-family: 'ptsansnarrow';
 }
 
 html, body {
@@ -12,10 +12,29 @@ html, body {
     position: relative;
     max-width: 940px;
     margin: 0 auto;
+    &_footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_lineup {
+        /* position: absolute; */
+        display: flex;
+        justify-content: center;
+        /* top: -1200px; */
+    }
+    &_linedown {
+        /* position: absolute; */
+        display: flex;
+        justify-content: center;
+        /* top: -1200px; */
+        margin: 80px auto;
+    }
+
 }
 
 
 
+@import 'blocks/button';
 @import 'blocks/contact';
 @import 'blocks/follow';
 @import 'blocks/footer';
