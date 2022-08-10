@@ -65,7 +65,7 @@ html, body {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  padding-top: 15px;
+  padding-top: 20px;
   list-style-type: none;
 }
 .footer_item_social_list_item a {
@@ -86,22 +86,22 @@ html, body {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.footer_item .page-footer__social-item--vk a::before {
+.footer_item_social_list_item_vk a::before {
   background-image: url("../img/vk.svg");
 }
-.footer_item .page-footer__social-item--vk a:hover::before {
+.footer_item_social_list_item_vk a:hover::before {
   background-image: url("../img/vk-black.svg");
 }
-.footer_item .page-footer__social-item--facebook a::before {
+.footer_item_social_list_item_facebook a::before {
   background-image: url("../img/facebook.svg");
 }
-.footer_item .page-footer__social-item--facebook a:hover::before {
+.footer_item_social_list_item_facebook a:hover::before {
   background-image: url("../img/facebook-black.svg");
 }
-.footer_item .page-footer__social-item--inst a::before {
+.footer_item_social_list_item_inst a::before {
   background-image: url("../img/instagram.svg");
 }
-.footer_item .page-footer__social-item--inst a:hover::before {
+.footer_item_social_list_item_inst a:hover::before {
   background-image: url("../img/instagram-black.svg");
 }
 .footer_item_text {
@@ -127,6 +127,10 @@ html, body {
 }
 .footer_item_soc {
   width: 150px;
+}
+
+.visually-hidden {
+  display: none;
 }
 
 .header {

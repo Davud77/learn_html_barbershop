@@ -9,7 +9,7 @@
                 justify-content: space-between;
                 margin: 0;
                 padding: 0;
-                padding-top: 15px;
+                padding-top: 20px;
                 list-style-type: none;
                 &_item {
                     a {
@@ -30,46 +30,33 @@
                             background-position: center center;
                         }
                     }
+                    &_vk {
+                        a::before {
+                            background-image: url("../img/vk.svg");
+                        }
+                        a:hover::before {
+                            background-image: url("../img/vk-black.svg");
+                        }
+                    }
+                    &_facebook {
+                        a::before {
+                            background-image: url("../img/facebook.svg");
+                        }
+                        a:hover::before {
+                            background-image: url("../img/facebook-black.svg");
+                        }
+                    }
+                    &_inst {
+                        a::before {
+                            background-image: url("../img/instagram.svg");
+                        }
+                        a:hover::before {
+                            background-image: url("../img/instagram-black.svg");
+                        }   
+                    }
                 }
             }
         }
-
-        
-        .page-footer__social-item--vk a::before {
-            background-image: url("../img/vk.svg");
-        }
-        
-        .page-footer__social-item--vk a:hover::before {
-            background-image: url("../img/vk-black.svg");
-        }
-        
-        .page-footer__social-item--facebook a::before {
-            background-image: url("../img/facebook.svg");
-        }
-        
-        .page-footer__social-item--facebook a:hover::before {
-            background-image: url("../img/facebook-black.svg");
-        }
-        
-        .page-footer__social-item--inst a::before {
-            background-image: url("../img/instagram.svg");
-        }
-        
-        .page-footer__social-item--inst a:hover::before {
-            background-image: url("../img/instagram-black.svg");
-        }   
-
-
-
-
-
-
-
-
-
-
-
-
         &_text {
             font-size: 14px;
             font-family: 'ptsansnarrowbold';
@@ -99,15 +86,8 @@
             
             width: 150px;
         }
-        
     }
-        
-
-
-
-
-  }
-
-
-
-
+}
+.visually-hidden {
+    display: none;
+}
